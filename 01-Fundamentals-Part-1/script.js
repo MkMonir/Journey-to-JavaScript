@@ -34,7 +34,7 @@ console.log(typeof myJob);
 console.log(myJob);       */
 
 
-
+/*
 ///////math operators
 
 const now = 2020;
@@ -72,5 +72,25 @@ const ageMonir = now - 2001;
 const ageAshik = now - 1995;
 
 const averageAge = (ageMonir + ageAshik) / 2;
-console.log(ageAshik,ageMonir,averageAge);
+console.log(ageAshik,ageMonir,averageAge);      */
+
+//////Chalange 1
+
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massjohn = 92;
+// const heightjohn = 1.95;
+
+const massMark = 95;
+const heightMark = 1.88;
+const massjohn = 85;
+const heightjohn = 1.76;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massjohn / (heightjohn * heightjohn);
+console.log(BMIMark,BMIJohn);
+
+const markHigherBmi = BMIMark > BMIJohn;
+console.log(markHigherBmi);
+console.log(typeof markHigherBmi);
 
