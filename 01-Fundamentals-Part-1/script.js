@@ -95,6 +95,7 @@ const markHigherBmi = BMIMark > BMIJohn;
 console.log(markHigherBmi);
 console.log(typeof markHigherBmi);      */
 
+/*
 ///////Strings and Template Literals
 const firstName = 'monir';
 const job = 'student';
@@ -115,5 +116,26 @@ monir');
 console.log(`my
 name
 is
-monir`);
+monir`);                */
+
+
+///// Taking Decisions if  else Statements
+const age = 19;
+const isOldEnough = age >= 21;
+
+if(isOldEnough){
+   console.log('Ashik can get married now 😂😂');
+} else {
+    const yearsLeft= 21 -age;
+    console.log(`Ashik is too young wait another ${yearsLeft} years 😒😜`);
+}
+
+const birthYear = 2001;
+let century;
+if (birthYear <= 2002){
+    century = 20;
+} else{
+    century = 21;
+}
+console.log(century);
 
