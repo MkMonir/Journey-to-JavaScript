@@ -165,6 +165,7 @@ else{
     console.log(`jhon's ${BMIJohn} is higher then mark's ${BMIMark}`)
 }           */
 
+/*
 ///////Type Conversion
 const inputYear = '1991';
 console.log(Number(inputYear) + 20);
@@ -187,7 +188,44 @@ console.log('201' / '28');
 let n = '10' + 20;
 n = n - '20';
 
-console.log(n);
+console.log(n);         */
 
+
+////Truthy and Falsy values
+
+////5 falsy values 0, undefined, '', null, NaN without this values all are truthy values
+
+console.log(Boolean(0));
+console.log(Boolean(''));
+console.log(Boolean(undefined));
+console.log(Boolean({}));
+console.log(Boolean(Number('Monir')));
+
+const monir = 0;
+
+if(monir){
+    console.log("Monir is elder then Ashik")
+}
+else{
+    console.log("Ashik is elder then Monir")
+}
+
+// let height;
+
+// if(height){
+//     console.log("height is defined")
+// }
+// else{
+//     console.log("height is undefined")
+// }
+
+let height = '';
+
+if(height){
+    console.log("height is defined")
+}
+else{
+    console.log("height is undefined")
+}
 
 
