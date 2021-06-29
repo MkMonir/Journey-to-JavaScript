@@ -74,6 +74,7 @@ const ageAshik = now - 1995;
 const averageAge = (ageMonir + ageAshik) / 2;
 console.log(ageAshik,ageMonir,averageAge);      */
 
+/*
 //////Chalange 1
 
 // const massMark = 78;
@@ -92,5 +93,27 @@ console.log(BMIMark,BMIJohn);
 
 const markHigherBmi = BMIMark > BMIJohn;
 console.log(markHigherBmi);
-console.log(typeof markHigherBmi);
+console.log(typeof markHigherBmi);      */
+
+///////Strings and Template Literals
+const firstName = 'monir';
+const job = 'student';
+const birthYear = 2001;
+const currentYear = 2021;
+
+const monir = "I'm " + firstName + ', a ' + (currentYear-birthYear) + ' years old ' + job + '!';
+console.log(monir);
+
+const monirNew = `i'm ${firstName}, a ${currentYear-birthYear} years old ${job} !`;
+console.log(monirNew);
+
+console.log('my \n\
+name \n\
+is \n\
+monir');
+
+console.log(`my
+name
+is
+monir`);
 
