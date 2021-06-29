@@ -140,6 +140,7 @@ if (birthYear <= 2002){
 }
 console.log(century);      */
 
+/*
 ///coding chalange 2
 
 // const massMark = 78;
@@ -162,5 +163,31 @@ if(BMIMark > BMIJohn){
 }
 else{
     console.log(`jhon's ${BMIJohn} is higher then mark's ${BMIMark}`)
-}
+}           */
+
+///////Type Conversion
+const inputYear = '1991';
+console.log(Number(inputYear) + 20);
+console.log(inputYear + 20);
+
+console.log(Number("Monir"));
+
+console.log(30 + 20);
+console.log(String(30) + 20);
+
+console.log(Number(true));
+
+///////Type Coercion
+console.log('20' + '19' - 10) //'20' + '19'= 2019 -10 = 2009
+
+console.log('201' - '28' - '30');
+console.log('201' * '28' - '30');
+console.log('201' / '28');
+
+let n = '10' + 20;
+n = n - '20';
+
+console.log(n);
+
+
 
