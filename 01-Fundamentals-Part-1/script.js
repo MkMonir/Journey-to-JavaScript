@@ -119,6 +119,7 @@ is
 monir`);                */
 
 
+/*
 ///// Taking Decisions if  else Statements
 const age = 19;
 const isOldEnough = age >= 21;
@@ -137,5 +138,29 @@ if (birthYear <= 2002){
 } else{
     century = 21;
 }
-console.log(century);
+console.log(century);      */
+
+///coding chalange 2
+
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massjohn = 92;
+// const heightjohn = 1.95;
+
+const massMark = 95;
+const heightMark = 1.88;
+const massjohn = 85;
+const heightjohn = 1.76;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massjohn / (heightjohn * heightjohn);
+console.log(BMIMark,BMIJohn);
+
+
+if(BMIMark > BMIJohn){
+    console.log(`marks's ${BMIMark} is higher then jon's ${BMIJohn}`)
+}
+else{
+    console.log(`jhon's ${BMIJohn} is higher then mark's ${BMIMark}`)
+}
 
