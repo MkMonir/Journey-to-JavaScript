@@ -230,6 +230,7 @@ else{
 }           */
 
 
+/*
 /////Equality operators ==  vs =====
 
 //// strict equality operator(===),
@@ -259,4 +260,26 @@ else{
 
 if(favourite !== 25){
     console.log("why not 25")
+}                                          */
+
+
+////Boolean logical operators
+
+const hasDriversLisence = false;
+const hasGoodVision = true;
+const isTried = true;
+
+console.log(hasDriversLisence && hasGoodVision);
+// console.log(hasDriversLisence || hasGoodVision || isTried);
+
+if(hasDriversLisence && hasGoodVision || isTried){
+    console.log("Ashik can drive");
+}else{
+    console.log("Someone need to drive");
+}
+
+if(hasDriversLisence && hasGoodVision || isTried && !isTried){
+    console.log("Ashik can drive");
+}else{
+    console.log("Someone need to drive");
 }
