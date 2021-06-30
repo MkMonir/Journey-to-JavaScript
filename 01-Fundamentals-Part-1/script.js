@@ -191,6 +191,7 @@ n = n - '20';
 console.log(n);         */
 
 
+/*
 ////Truthy and Falsy values
 
 ////5 falsy values 0, undefined, '', null, NaN without this values all are truthy values
@@ -226,6 +227,36 @@ if(height){
 }
 else{
     console.log("height is undefined")
+}           */
+
+
+/////Equality operators ==  vs =====
+
+//// strict equality operator(===),
+//// loose equality operator(==),
+//// The difference between strict and loose operator is strict operators can't do type coercion.
+//// But we need to avoid using loose operators bcz it's hard to find bugs and others problem
+
+//// different operator (!==)
+
+const age = '18';
+if(age === 18) console.log("i just become an adult (strict)");
+
+if(age == 18) console.log("i just become an adult (loose)");
+
+const favourite = Number(prompt("what is your favourite per"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if(favourite === 25){
+    console.log("25 is an amazing number");
+}else if(favourite === 9){
+    console.log("9 is also an amazing number");
+}
+else{
+    console.log("it's not 25 or 9");
 }
 
-
+if(favourite !== 25){
+    console.log("why not 25")
+}
