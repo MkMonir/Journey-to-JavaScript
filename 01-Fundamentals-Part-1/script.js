@@ -262,7 +262,7 @@ if(favourite !== 25){
     console.log("why not 25")
 }                                          */
 
-
+/*
 ////Boolean logical operators
 
 const hasDriversLisence = false;
@@ -282,4 +282,36 @@ if(hasDriversLisence && hasGoodVision || isTried && !isTried){
     console.log("Ashik can drive");
 }else{
     console.log("Someone need to drive");
-}
+}                            */
+
+
+/*
+////Coding chalange 3
+
+// const scoreDolphin = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 89 + 110) / 3;
+// console.log(scoreDolphin,scoreKoalas);
+
+// if(scoreDolphin > scoreKoalas){
+//     console.log("Dolphin is win ");
+// }else if(scoreKoalas > scoreDolphin){
+//     console.log("koalas is win ");
+// }else if(scoreDolphin === scoreKoalas){
+//     console.log("Both are wins");
+// }
+
+//Bonus 1 and 2
+
+const scoreDolphin = (97 + 112 + 101) / 3;
+const scoreKoalas = (109 + 95 + 106) / 3;
+console.log(scoreDolphin,scoreKoalas);
+
+if(scoreDolphin > scoreKoalas && scoreDolphin >= 100){
+    console.log("Dolphin is win ");
+}else if(scoreKoalas > scoreDolphin &&  scoreKoalas >= 100){
+    console.log("koalas is win ");
+}else if(scoreDolphin === scoreKoalas && scoreDolphin >= 100 && scoreKoalas >= 100){
+    console.log("Both are wins");
+}else{
+    console.log("No one wins the trophy");
+}                                               */
