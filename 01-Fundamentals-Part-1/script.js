@@ -315,3 +315,40 @@ if(scoreDolphin > scoreKoalas && scoreDolphin >= 100){
 }else{
     console.log("No one wins the trophy");
 }                                               */
+
+
+//////Switch statement
+
+const day = "satarday";
+
+switch(day){
+    case 'monday':
+        console.log("creating something new");
+        break
+    case 'tuesday':
+        console.log("doing coding practice");
+        break
+    case 'wednesday':
+    case 'thursday':
+        console.log("doing fun with new feateres");
+        break
+    case 'friday':
+    case 'satarday':
+        console.log("enjoy the weekend");
+        break
+    default:
+        console.log("not a valid day");
+}
+
+if(day === "monday"){
+    console.log("creating something new");
+}else if(day === "tuesday"){
+    console.log("doing coding practice");
+}else if(day === "wednesday" ||  day === "thursday"){
+    console.log("doing fun with new feateres");
+}else if(day === "friday" || day === "satarday"){
+    console.log("enjoy the weekend");
+}else{
+    console.log("not a valid day");
+}
+
