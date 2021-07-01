@@ -352,7 +352,7 @@ if(day === "monday"){
     console.log("not a valid day");
 }                                                         */
 
-
+/*
 /////Expressions and statement
 
 ///Defference between expresssion and statement is expressions produce any values but satement produce a variables or sentence
@@ -360,5 +360,24 @@ if(day === "monday"){
 25 + 30 ///thats a expression bcz it produce a value
 true && false //thats a expression
 
-const age = 20; ///thats a statement
+const age = 20; ///thats a statement                    */
 
+
+/////Conditional ternary operators
+const age = 20;
+
+age >=21 ? console.log("I like to drink wine 🍷"):
+            console.log("I like to drink water 🥛");
+
+const drink = age >= 20 ? 'wine🍷': 'water🥛';
+console.log(drink);
+
+let drink2;
+if(age >=219){
+    drink2 = 'wine🍷';
+}else{
+    drink2 = 'water🥛';
+}
+console.log(drink2);
+
+console.log(`I like to drink ${drink2}`);
