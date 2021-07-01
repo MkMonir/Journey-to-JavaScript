@@ -316,7 +316,7 @@ if(scoreDolphin > scoreKoalas && scoreDolphin >= 100){
     console.log("No one wins the trophy");
 }                                               */
 
-
+/*
 //////Switch statement
 
 const day = "satarday";
@@ -350,5 +350,15 @@ if(day === "monday"){
     console.log("enjoy the weekend");
 }else{
     console.log("not a valid day");
-}
+}                                                         */
+
+
+/////Expressions and statement
+
+///Defference between expresssion and statement is expressions produce any values but satement produce a variables or sentence
+
+25 + 30 ///thats a expression bcz it produce a value
+true && false //thats a expression
+
+const age = 20; ///thats a statement
 
