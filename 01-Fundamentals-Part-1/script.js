@@ -363,6 +363,7 @@ true && false //thats a expression
 const age = 20; ///thats a statement                    */
 
 
+/*
 /////Conditional ternary operators
 const age = 20;
 
@@ -380,4 +381,21 @@ if(age >=219){
 }
 console.log(drink2);
 
-console.log(`I like to drink ${drink2}`);
+console.log(`I like to drink ${drink2}`);           */
+
+
+/////Challange 4
+
+const bill = 40;
+const tip = bill >=50 && bill <=300 ? bill * 15 /100: bill * 20 /100;
+console .log(`The bill was ${bill}, the tip was ${tip}, and the total bill was ${bill + tip}`);
+
+if(bill >=50 && bill <=300){
+    const tip2 = bill * 15/100;
+    const total = bill + tip2;
+    console.log(bill,tip2,total);
+}else{
+    const tip2 = bill * 20/100;
+    const total = bill + tip2;
+    console.log(bill,tip2, total);
+}
