@@ -21,7 +21,7 @@ console.log(appleJuice);
 console.log(fruitProcessor(5,0));
 
 const appleOrangeJuice = fruitProcessor(14,10);
-console.log(appleOrangeJuice); 
+console.log(appleOrangeJuice);
 
 const num = Number("45");
 console.log(num);
