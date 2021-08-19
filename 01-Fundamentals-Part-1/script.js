@@ -23,16 +23,15 @@ console.log(typeof 'monir');
 
 javscripIsFun = 'fun';
 console.log(typeof javscripIsFun);*/
-
-/*const birthDay = 1991;
+/*
+const birthDay = 1991;
 console.log(birthDay);
 //birthDay = 1992;
 //const Monir;
 var myJob = 'coding';
 myJob = 'true';
 console.log(typeof myJob);
-console.log(myJob);       */
-
+console.log(myJob);   */    
 
 /*
 ///////math operators
@@ -118,7 +117,6 @@ name
 is
 monir`);                */
 
-
 /*
 ///// Taking Decisions if  else Statements
 const age = 19;
@@ -188,8 +186,7 @@ console.log('201' / '28');
 let n = '10' + 20;
 n = n - '20';
 
-console.log(n);         */
-
+console.log(n);    */    
 
 /*
 ////Truthy and Falsy values
@@ -229,7 +226,6 @@ else{
     console.log("height is undefined")
 }           */
 
-
 /*
 /////Equality operators ==  vs =====
 
@@ -262,7 +258,7 @@ if(favourite !== 25){
     console.log("why not 25")
 }                                          */
 
-/*
+
 ////Boolean logical operators
 
 const hasDriversLisence = false;
@@ -282,8 +278,7 @@ if(hasDriversLisence && hasGoodVision || isTried && !isTried){
     console.log("Ashik can drive");
 }else{
     console.log("Someone need to drive");
-}                            */
-
+}                            
 
 /*
 ////Coding chalange 3
@@ -362,7 +357,6 @@ true && false //thats a expression
 
 const age = 20; ///thats a statement                    */
 
-
 /*
 /////Conditional ternary operators
 const age = 20;
@@ -383,19 +377,18 @@ console.log(drink2);
 
 console.log(`I like to drink ${drink2}`);           */
 
-
 /////Challange 4
 
-const bill = 40;
-const tip = bill >=50 && bill <=300 ? bill * 15 /100: bill * 20 /100;
-console .log(`The bill was ${bill}, the tip was ${tip}, and the total bill was ${bill + tip}`);
+// const bill = 40;
+// const tip = bill >=50 && bill <=300 ? bill * 15 /100: bill * 20 /100;
+// console .log(`The bill was ${bill}, the tip was ${tip}, and the total bill was ${bill + tip}`);
 
-if(bill >=50 && bill <=300){
-    const tip2 = bill * 15/100;
-    const total = bill + tip2;
-    console.log(bill,tip2,total);
-}else{
-    const tip2 = bill * 20/100;
-    const total = bill + tip2;
-    console.log(bill,tip2, total);
-}
+// if(bill >=50 && bill <=300){
+//     const tip2 = bill * 15/100;
+//     const total = bill + tip2;
+//     console.log(bill,tip2,total);
+// }else{
+//     const tip2 = bill * 20/100;
+//     const total = bill + tip2;
+//     console.log(bill,tip2, total);
+// }
